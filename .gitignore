@@ -1,0 +1,16 @@
+/static/
+/logs/
+/pid/
+*.pyc
+*.swp
+*.swm
+*.swn
+*.swo
+*.un~
+*.local
+*_local.*
+.DS_Store
+.idea/
+.project
+.pydevproject
+/icons/*
