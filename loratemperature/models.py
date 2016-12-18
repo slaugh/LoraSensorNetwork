@@ -11,3 +11,5 @@ class SensorData(models.Model):
     sensor_data = models.CharField(max_length=200)
     pub_date = models.DateTimeField('date published')
 
+    def __str__(self):
+        return "Produced By Scott Laughlin - Data Collected using Long Range wireless (LoRa)"
